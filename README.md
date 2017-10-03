@@ -11,9 +11,9 @@ Current known issues:
 - If multiple cars claim the same car is following them they will both start sending data to that car, causing it to get data from two different cars simultaneously. 
 
 Potentially planned changes by priority:
-- Make the client know which car they should be listening to instead of which car they should send data to. This prevents multiple cars from sending data to the same one.
 - A simple public way of checking if the client has lost connection.
 - Let the client try to reconnect instead of stopping upon losing connection.
+- Make the client know which car they should be listening to instead of which car they should send data to. This prevents multiple cars from sending data to the same one.
 
 
 See src/mopedp2pserver/ for the server code. This handles connecting the different mopeds together.
