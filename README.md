@@ -17,3 +17,5 @@ Potentially planned changes by priority:
 
 
 See src/mopedp2pserver/ for the server code. This handles connecting the different mopeds together.
+
+All other files are either for development or unused.
